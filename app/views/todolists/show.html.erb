@@ -1,0 +1,10 @@
+<div class="post-show">
+  <h2>やることの詳細</h2>
+  <h4>題名</h4>
+  <p><%= @list.title %></p>
+  <h4>本文</h4>
+  <p><%= @list.body %></p>
+
+  <%= link_to '内容変更', edit_todolist_path(@list.id) %>
+  <%= link_to "戻る", :back  %>
+</div>

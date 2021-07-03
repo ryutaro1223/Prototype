@@ -1,0 +1,8 @@
+<div class="post-index">
+  <h1>すること一覧</h1>
+  <% @lists.each do |list| %>
+    <p>題名</p>
+    <span><%= link_to list.title, "/todolists/#{list.id}" %></span>
+  <% end %>
+
+</div>

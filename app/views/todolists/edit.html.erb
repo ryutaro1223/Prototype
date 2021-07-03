@@ -1,0 +1,9 @@
+<h2>すること内容の変更</h2>
+<%= form_with model:@list, url:"/todolists/#{@list.id}", local:true do |f| %>
+  <p>題名</p>
+  <%= f.text_field :title %>
+  <p>本文</p>
+  <%= f.text_area :body %>
+  <%= f.submit '変更完了' %>
+<% end %>
+<%= link_to "戻る", :back  %>

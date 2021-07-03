@@ -1,3 +1,43 @@
 // Place all the styles related to the todolists controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+// 新規投稿
+.post-new{
+  text-align: center;
+}
+.post-new h1,h4 {
+  color: #555;
+}
+// 投稿一覧
+.post-index{
+  text-align: center;
+}
+
+.post-index h1{
+  color: #555;
+}
+
+.post-index p {
+  border: 1px #ddd solid;
+  background-color: #999;
+}
+.post-index a{
+  text-decoration: none;
+}
+.post-index a:hover{
+  text-decoration: underline;
+}
+// 投稿詳細
+.post-show h2,h4 {
+  color: #555;
+}
+
+.post-show {
+  text-align: center;
+}
+
+.post-show p {
+  border: 1px #ddd solid;
+  background-color: #999;
+}
