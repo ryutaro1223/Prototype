@@ -35,9 +35,18 @@
 
 .post-show {
   text-align: center;
+  border: 1px #ddd solid;
 }
 
-.post-show p {
+.post-show h4 {
   border: 1px #ddd solid;
   background-color: #999;
+}
+
+.post-show a{
+  text-decoration: none;
+}
+
+.post-show a:hover{
+  text-decoration: underline;
 }

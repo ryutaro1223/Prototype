@@ -29,8 +29,8 @@ class TodolistsController < ApplicationController
 
   def destroy
     @list = List.find(params[:id])
-    list.destroy
-    redirect_to 'todolists'
+    @list.destroy
+    redirect_to '/todolists'
   end
 
   private
